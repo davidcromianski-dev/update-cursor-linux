@@ -38,7 +38,7 @@ This script automates the process of updating Cursor (AI-powered code editor) on
 ### Basic Execution
 
 ```bash
-./atualizar-cursor.sh
+./update-cursor.sh
 ```
 
 The script will prompt for:
@@ -49,7 +49,7 @@ The script will prompt for:
 ### Execution Example
 
 ```bash
-$ ./atualizar-cursor.sh
+$ ./update-cursor.sh
 Informe a versão do Cursor desejada (ex: 1.4.5): 1.4.5
 Baixando https://api2.cursor.sh/updates/download/golden/linux-x64/cursor/1.4.5 ...
 Criando backup: /opt/cursor/cursor.AppImage.20241201-143022.bak
@@ -97,7 +97,7 @@ The script automatically detects if `libfuse.so.2` is available:
 
 **Solution**: Execute with `sudo` or as root:
 ```bash
-sudo ./atualizar-cursor.sh
+sudo ./update-cursor.sh
 ```
 
 ### Error: "Nem curl nem wget encontrados"
